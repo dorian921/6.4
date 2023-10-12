@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  background-image: url(./img/background.jpeg);
+  background-size: cover;
+}
+#h1{
+  position: relative;
+  color: white;
+  text-align: center;
+  bottom: -400px;
+  font-size: 100px;
+
+}
+
+#img-sql{
+  right: -1250px;
+  width: 500px;
+  bottom: 500px;
+  position: relative;
+  
+}
+#img-java{
+  position: relative;
+  float: right;
+  right: 125px;
+}
+
+#img-php{
+  position: relative;
+  float: left;
+  bottom: 100px;
+  left: 300px;
+}
+
+#img-css{
+  position: relative;
+  left: 0px;
+  float: left;
+}
+
+#h1css{ 
+  position: relative;
+  text-align: center;
+  top: 200px;
+  font-size: 60px;
+}
+
+#h2css{
+  position:relative;
+  bottom: -250px;
+  left: -350px;
+  text-align: right;
+  margin: 60px;
+  text-wrap: nowrap;
+  font-size: 30px;
+}
+
+#color-sql{
+  color: orange;
+}
+
+#java-color{
+  color: #f7df1e;
+}
+
+#html-color{
+  color: orange;
+  
+}
+#css-color{
+  color: blue;
+}
+#colorphp{
+  color: lightskyblue;
+}
+
+#h2-jav{
+  position:relative;
+  bottom: -250px;
+  right: 1250px;
+  text-align: right;
+  margin: 60px;
+  text-wrap: nowrap;
+  font-size: 30px;
+}
+
+#h2-sql{
+  position: relative;
+  bottom: 0px;
+}
+
+#h3-sql{
+  position:relative;
+  bottom: 0px;
+left: 50px;
+    margin: 60px;
+  width: 400px;
+  font-size: 30px;
+  text-align: left;
+  text-wrap: wrap;
+  }
+
+#h1-jav{
+  position: relative;
+  text-align: center;
+  bottom: -180px;
+  font-size: 100px;
+}
+
+#h3-jav{
+  box-sizing: content-box;
+  font-size: 22px;
+}
+
+  
+
+
+#h3-jav{
+  position: relative;
+  float: right;
+  left: -700px;
+  bottom: -200px; 
+  text-align:center;
+  font-size: 20px;
+  box-sizing: border-box;
+  display: flex;
+  text-wrap: wrap;
+  width: 628px;
+  height: 380px;
+}
+
+#h3css{
+  position: relative;
+  float: right;
+  left: -300px;
+  bottom: -200px; 
+  text-align:center;
+  font-size: 20px;
+  box-sizing: border-box;
+  display: flex;
+  text-wrap: wrap;
+  width: 628px;
+  height: 380px;
+}
+#body-css{
+  background-color: white;
+  background-size: cover;
+  background-image: none;  
+  color: black;  
+  font-family: "Goldman", cursive;   
+             
+}
+
+#body-jav{
+  background-color: black;
+  background-size: cover;
+  background-image: none;
+  color: white;
+  font-family: "Goldman", cursive;
+}
+
+nav { 
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: -10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  top: 0px;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: baseline;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+footer{
+  position:absolute;
+  display: block;
+  width: 100%;
+  padding: 2rem;
+  min-height: -10vh;
+  align-items: center;
+  
+  flex-wrap: wrap;
+  margin: 0px;
+  bottom: 0px;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
+.dropbtn{
+  background-color: #00a8c7;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: relative;
+  
+  
+  
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display:flex;
+                                        flex-direction: column;
+
+    }
+
+    .dropdown:hover .dropbtn {background-color: white;}
